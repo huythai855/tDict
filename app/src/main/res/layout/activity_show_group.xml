@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add">
+
+    <EditText
+        android:id="@+id/edtWord3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:ems="12"
+        android:hint="Nhập từ trong nhóm cần tìm"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtAddStatus3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nhóm từ đồng nghĩa cần tìm là"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        android:textColor="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSearch3"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tìm"
+        android:id="@+id/btnSearch3"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtWord3" />
+
+    <TextView
+        android:id="@+id/txtlabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tìm nhóm từ đồng nghĩa"
+        android:textSize="30dp"
+        android:textColor="@color/purple_700"
+        app:layout_constraintBottom_toTopOf="@+id/edtWord3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAddStatus3">
+
+        <TextView
+            android:id="@+id/word1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Word1"
+            android:textColor="@color/teal_700"
+            android:textSize="25sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/word2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/word1"
+            android:text="Word1"
+            android:textColor="@color/teal_700"
+            android:textSize="25sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/word3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/word2"
+            android:text="Word1"
+            android:textColor="@color/teal_700"
+            android:textSize="25sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/word4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/word3"
+            android:text="Word1"
+            android:textColor="@color/teal_700"
+            android:textSize="25sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/word5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/word4"
+            android:text="Word1"
+            android:textColor="@color/teal_700"
+            android:textSize="25sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/word6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/word5"
+            android:text="Word1"
+            android:textColor="@color/teal_700"
+            android:textSize="25sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/word7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/word6"
+            android:text="Word1"
+            android:textColor="@color/teal_700"
+            android:textSize="25sp"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
